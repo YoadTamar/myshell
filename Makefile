@@ -1,5 +1,5 @@
 CC = gcc
-FLAGS = -Wall -g
+FLAGS = -Wall -Werror -Wextra -pedantic -g
 TARGETS = myshell
 
 .PHONY: all clean
